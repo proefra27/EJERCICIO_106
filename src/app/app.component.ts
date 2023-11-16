@@ -11,4 +11,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'EJEMPLO_106';
+  contador =0;
+
+  incrementaContador(){
+    this.contador++
+  }
+
+  decrementaContador(){
+    this.contador--;
+  }
 }

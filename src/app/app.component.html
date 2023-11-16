@@ -227,6 +227,11 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <div>
+        <p>{{ contador }}</p>
+        <button (click)="incrementaContador()">Incrementar</button>
+        <button (click)="decrementaContador()">Decrementar</button>
+      </div>
    </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
@@ -332,5 +337,5 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-
 <router-outlet></router-outlet>
+
